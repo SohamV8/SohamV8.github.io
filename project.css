@@ -9,13 +9,21 @@
     padding: 0;
     box-sizing: border-box;
   }
-  html,body {
+  html{
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
     background-color: #28282B;
     position: relative;
-    /* overflow-x: hidden; */
+  }
+
+  body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: #28282B;
+    position: relative;
+    overflow-x: hidden;
   }
   
   @media (max-width: 992px){
