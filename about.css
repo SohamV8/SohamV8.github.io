@@ -8,16 +8,16 @@
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
-    background-color: #28282B;
     position: relative;
+    background-color: #000;
   }
 
   body{
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
-    background-color: #28282B;
     position: relative;
+    background-color: #000;
     overflow-x: hidden;
   }
 
