@@ -530,5 +530,137 @@ footer{
 
     a{
       text-decoration: none;
+    }
 
+    @media screen and (1024px <= width <= 1250px) {
+      html,body{
+        justify-content: center;
+        align-items: center;
+      }
+
+      .projects {
+        margin: 50px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        display: contents;
+        margin-top: -75px;
+    }
+
+    .cal-text {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 420px;
+      align-items: center;
+      text-align: left;
+      margin-top: 75px;
+      margin-left: 80px;
+  }
+  .pro-title {
+    font-weight: 450;
+    font-size: 44px;
+    align-items: center;
+    position: relative;
+    background-position: center center;
+    left: 380px;
+    margin: 20px; 
+}
+
+.calpic {
+  height: 300px;
+  width: 420px;
+  margin-left: 270px;
+  align-items: center;
+  justify-content: right;
+  margin-top: -130px;
+}
+
+.pro-text {
+  align-items: center;
+  position: relative;
+  background-position: center;
+  left: 400px;
+  margin: 25px;
+  font-size: 65px;
+  font-family: 'Yatra One', cursive;
+  font-weight: 500;
+  color: antiquewhite;
+  margin-bottom: -35px;
+  justify-content: center;
+}
+    }
+
+    @media screen and (1500px <= width <= 1800px) {
+      html,body{
+       
+        justify-content: center;
+        align-items: center;
+      }
+
+      .projects {
+        margin: 50px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        display: contents;
+        margin-top: -75px;
+    }
+
+    .cal-text {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 600px;
+      align-items: center;
+      text-align: left;
+      margin-top: 75px;
+      margin-left: 80px;
+  }
+  .pro-title {
+    font-weight: 450;
+    font-size: 48px;
+    align-items: center;
+    position: relative;
+    background-position: center center;
+    left: 580px;
+    margin: 20px; 
+}
+
+.calpic {
+  height: 300px;
+  width: 420px;
+  margin-left: 450px;
+  align-items: center;
+  justify-content: right;
+  margin-top: -100px;
+}
+
+.pro-text {
+  align-items: center;
+  position: relative;
+  background-position: center;
+  margin-top: 10px;
+  left: 520px;
+  margin: 25px;
+  font-size: 65px;
+  font-family: 'Yatra One', cursive;
+  font-weight: 500;
+  color: antiquewhite;
+  margin-bottom: -35px;
+  justify-content: center;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 300;
+  color: azure;
+  font-family: 'Roboto', sans-serif;
+  margin: 21px;
+  margin-left: 110px;
+  line-height: 1.6;
+  font-weight: 300;
+}
     }
