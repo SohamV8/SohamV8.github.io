@@ -649,7 +649,7 @@ margin: 10px;
 
       /* -------------------sign----------------- */
 
-      @media screen and (max-height:1200px){
+           @media screen and (max-width:1200px){
         h1.about-text {
           justify-content: center;
           align-items: center;
@@ -673,7 +673,7 @@ margin: 10px;
         flex-direction: column;
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
-        margin-right: -70px;
+        margin-right: -150px;
     }
 
     .container{
@@ -702,6 +702,30 @@ margin: 10px;
     border-radius: 10px;
     display: flex;
 }
-      }
 
-      
+h1.ai {
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 40px;
+  font-family: 'Victor Mono', monospace;
+  color: azure;
+}
+
+.aitext {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: -150px;
+  align-items: center;
+  text-align: left;
+  margin-top: -290px;
+  margin-left: 270px;
+  position: relative;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: snow;
+  font-size: 19px;
+}
+      }
