@@ -649,5 +649,59 @@ margin: 10px;
 
       /* -------------------sign----------------- */
 
+      @media screen and (max-height:1200px){
+        h1.about-text {
+          justify-content: center;
+          align-items: center;
+          margin-left: 100px;
+          font-weight: 400;
+          font-size: 80px;
+          margin-top: -10px;
+          font-family: 'Lobster', cursive;
+          text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          background: -webkit-linear-gradient(#d50f0f, #7b0404);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+
+      .about {
+        font-size: 18px;
+        color: white;
+        display: flex;
+        margin-left: 400px;
+        margin-top: -300px;
+        flex-direction: column;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        margin-right: -70px;
+    }
+
+    .container{
+      justify-content: center;
+      align-items: center;
+    }
+
+    .project-section p {
+      display: flex;
+      margin: 50px;
+      margin-left: -70px;
+      margin-right: 300px;
+      margin-top: -270px;
+      font-size: 20px;
+      color: white;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  #slider {
+    margin: 0 auto;
+    width: 500px;
+    height: 281px;
+    overflow: hidden;
+    margin-left: 420px;
+    border-radius: 10px;
+    display: flex;
+}
+      }
 
       
