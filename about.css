@@ -313,6 +313,7 @@ h1{
   z-index: 1000000;
   position: relative;
   justify-content: space-between;
+text-align: center;
 }
 
 
@@ -882,3 +883,36 @@ font-family: 'Lugrasimo', cursive;
 font-weight: 400;
 line-height: 1.4;
   }
+
+/* -------------------responsive----------------- */
+
+@media screen and (1024px <= width <= 1300px) {
+.card{
+    position: absolute;
+    margin-top: -479px;
+    margin-left: 250px;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    width: 850px;
+    height: 370px;
+    display: flex;
+    font-family: VT323, monospace;
+    align-items: center;
+    justify-content: center;
+    background: rgba(168, 158, 158, 0.357);
+    box-shadow: rgba(31, 200, 87, 0.37) 0px 8px 32px 0px;
+    backdrop-filter: blur(7.5px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    letter-spacing: 1.5px;
+    z-index: 100000;
+
+}
+#who{
+  text-align: center;
+}
+
+#question{
+  text-align: center;
+}
+}
