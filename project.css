@@ -532,7 +532,9 @@ footer{
       text-decoration: none;
     }
 
-    @media screen and (1024px <= width <= 1250px) {
+   /* -------------------responsive----------------- */
+
+    @media screen and (1024px <= width <= 1300px) {
       html,body{
         justify-content: center;
         align-items: center;
@@ -552,11 +554,11 @@ footer{
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-right: 420px;
+      margin-right: 584px;
       align-items: center;
       text-align: left;
       margin-top: 75px;
-      margin-left: 80px;
+      margin-left: -10px;
   }
   .pro-title {
     font-weight: 450;
@@ -564,7 +566,7 @@ footer{
     align-items: center;
     position: relative;
     background-position: center center;
-    left: 380px;
+    left: 444px;
     margin: 20px; 
 }
 
@@ -592,6 +594,7 @@ footer{
 }
     }
 
+
     @media screen and (1500px <= width <= 1800px) {
       html,body{
        
@@ -613,12 +616,13 @@ footer{
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-right: 600px;
-      align-items: center;
-      text-align: left;
-      margin-top: 75px;
-      margin-left: 80px;
-  }
+          margin-right: 584px;
+    align-items: center;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: -10px;
+}
+  
   .pro-title {
     font-weight: 450;
     font-size: 48px;
