@@ -649,8 +649,9 @@ margin: 10px;
 
 
       /* -------------------sign----------------- */
+/* -------------------responsive----------------- */
 
-           @media screen and (max-width:1200px){
+           @media screen and (max-width:1300px){
         h1.about-text {
           justify-content: center;
           align-items: center;
@@ -664,6 +665,8 @@ margin: 10px;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
       }
+
+
 
       .about {
         font-size: 18px;
@@ -685,14 +688,18 @@ margin: 10px;
     .project-section p {
       display: flex;
       margin: 50px;
-      margin-left: -70px;
-      margin-right: 300px;
-      margin-top: -270px;
+      margin-left: -176px;
+      margin-right: 390px;
+      margin-top: -293px;
       font-size: 20px;
       color: white;
       font-weight: 400;
       font-family: 'Roboto', sans-serif;
   }
+
+  .btn-2{
+  margin-left: 285px;
+}
 
   #slider {
     margin: 0 auto;
@@ -729,4 +736,9 @@ h1.ai {
   color: snow;
   font-size: 19px;
 }
+
+img.gif{
+  margin-left:-60px ;
+}
+
       }
