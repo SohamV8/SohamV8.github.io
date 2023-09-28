@@ -15,11 +15,11 @@
     position: relative;
     height: 100%;
     width: 100%;
-    
+    overflow-x: hidden;
   }
   .background{
     position: relative;
-    height: 100vh;
+    height: auto;
     display: flex;
     width: 100%;
     background-repeat: no-repeat;
