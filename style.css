@@ -307,6 +307,7 @@ margin: 10px;
       }
 
       h1.about-text{
+           text-align: center;
         justify-content: center;
     align-items: center;
     margin-left: 350px;
@@ -378,7 +379,7 @@ margin: 10px;
         font-size: 40px;
         font-family: 'Victor Mono', monospace;
         color: azure;
-        
+         text-align: center;
         
       }
 .aitext{
