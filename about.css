@@ -916,3 +916,36 @@ line-height: 1.4;
   text-align: center;
 }
 }
+
+
+@media screen and (max-width: 1900px) and (min-width: 1500px) {
+  .card{
+      position: absolute;
+      margin-top: -680px;
+      margin-left: 350px;
+      color: rgb(255, 255, 255);
+      padding: 1em;
+      width: 1000px;
+      height: 700px;
+      display: flex;
+      font-family: VT323, monospace;
+      align-items: center;
+      justify-content: center;
+      background: rgba(168, 158, 158, 0.357);
+      box-shadow: rgba(31, 200, 87, 0.37) 0px 8px 32px 0px;
+      backdrop-filter: blur(7.5px);
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      letter-spacing: 2px;
+      z-index: 100000;
+  
+  }
+  #who{
+    text-align: center;
+  }
+  
+  #question{
+    text-align: center;
+  }
+
+  }
