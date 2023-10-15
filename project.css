@@ -595,7 +595,7 @@ footer{
     }
 
 
-    @media screen and (1500px <= width <= 1800px) {
+       @media screen and (1500px <= width <= 1900px) {
       html,body{
        
         justify-content: center;
@@ -616,11 +616,11 @@ footer{
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-          margin-right: 584px;
+          margin-right: 600px;
     align-items: center;
     text-align: left;
     margin-top: 75px;
-    margin-left: -10px;
+    margin-left: 30px;
 }
   
   .pro-title {
@@ -629,14 +629,14 @@ footer{
     align-items: center;
     position: relative;
     background-position: center center;
-    left: 580px;
+    left: 650px;
     margin: 20px; 
 }
 
 .calpic {
   height: 300px;
   width: 420px;
-  margin-left: 450px;
+  margin-left: 590px;
   align-items: center;
   justify-content: right;
   margin-top: -100px;
@@ -647,7 +647,7 @@ footer{
   position: relative;
   background-position: center;
   margin-top: 10px;
-  left: 520px;
+  left: 630px;
   margin: 25px;
   font-size: 65px;
   font-family: 'Yatra One', cursive;
