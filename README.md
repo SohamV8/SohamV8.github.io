@@ -1,5 +1,7 @@
-Portfolio Website
-Welcome to my portfolio website repository! This project showcases my skills and projects in front-end development, graphic design, and more.
+Welcome to the Revolutionary Video-Only Website project! 🌟 This innovative web design uses only videos to create an immersive and dynamic user experience, showcasing my VFX and video editing skills. Crafted entirely with Adobe Photoshop and After Effects, this project aims to inspire upcoming creators with fresh ideas and cutting-edge techniques.
 
-About
-This portfolio website is built using HTML, CSS, and JavaScript, highlighting my journey, skills, and projects. It serves as a platform to showcase my work and expertise to potential employers, collaborators, and peers.
+Key Features
+All-Video Design: Unique, engaging navigation and content presentation.
+VFX Portfolio: Highlighting advanced editing skills with stunning visual effects.
+Creative Tools: Leveraging Photoshop and After Effects for top-notch visuals.
+Responsive Experience: Optimized for all devices and screen sizes.
